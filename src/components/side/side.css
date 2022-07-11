@@ -1,0 +1,32 @@
+.side_bar{
+    position: fixed;
+    right:5px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.side_bar a{
+    display: block;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.side_bar a:hover{
+    transform: scale(0.99);
+    box-shadow: 0px 0px 30px rgb(255,215,0);
+}
+
+.side-viber{
+    background-color:  #7360F2;
+    color:#fff;
+}
+
+.side-viber:hover{
+    color:#fff;
+}
+
+
