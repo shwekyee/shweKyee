@@ -21,6 +21,23 @@
     margin-bottom: 0.5rem;
 }
 
+.profile::before{
+    content: "Mingalar Bar";
+    position: absolute;
+    top:-50px;
+    left:-10px;
+    padding: 10px;
+    background-color: #fff;
+    color:#333;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.profile:hover::before{
+    opacity: 1;
+}
+
 .profile img{
     border-radius: 50%;
 }
