@@ -92,6 +92,39 @@
     margin-left: 1rem;
 }
 
+.btn-transition{
+    transition: all 0.5s;
+    border-radius: 30px;
+}
+
+.btn-transition:hover{
+    transform: scale(0.98);
+}
+
+.btn-transition:active{
+    box-shadow: 2px 2px 100px rgb(255,255,255);
+}
+
+.football{
+    width: 600px;
+    height: 280px;
+    padding:20px;
+    margin:0 auto;
+    margin-bottom: 7.5rem;
+    background: url(../../Image/footballbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.football .saba, .football .sbo{
+    width: 250px;
+}
+
+
 @media (max-width:600px) {
     .header_content .img1 img{
         width: 90px;
@@ -108,7 +141,7 @@
 }
 
 @media (max-width:550px) {
-    .header_content, .footer_box, .main-box{
+    .header_content, .footer_box, .main-box, .football{
         width: 100%;
     }
 }
@@ -117,17 +150,4 @@
     .footer_box h4, .footer_box p{
         display: none;
     }
-}
-
-.btn-transition{
-    transition: all 0.5s;
-    border-radius: 30px;
-}
-
-.btn-transition:hover{
-    transform: scale(0.98);
-}
-
-.btn-transition:active{
-    box-shadow: 2px 2px 100px rgb(255,255,255);
 }

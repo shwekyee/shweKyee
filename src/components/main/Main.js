@@ -2,9 +2,9 @@ import React from 'react'
 import { Container, Col, Row, Image } from 'react-bootstrap'
 import './main.css'
 
-import headerPhoto from '../../Image/header.jpg'
-import logo from '../../Image/dbback1.png'
-import download from '../../Image/dbback2.png'
+import headerPhoto from '../../Image/mainheader.jpg'
+import logo from '../../Image/shwekyeeapp.png'
+import download from '../../Image/downloadNow.png'
 
 import game1 from '../../Image/game-1.png'
 import game2 from '../../Image/game-2.png'
@@ -14,6 +14,9 @@ import game5 from '../../Image/game-5.png'
 import game6 from '../../Image/game-6.png'
 import game7 from '../../Image/game-7.png'
 import game8 from '../../Image/game-8.png'
+
+import saba from '../../Image/sabaremovebg.png'
+import sbo from '../../Image/SBOremovebg.png'
 
 
 const game_items = [
@@ -43,7 +46,15 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div className='main-box'>
+                <div className='football'>
+                        <div className='saba'>
+                            <Image fluid src={saba}></Image>
+                        </div>
+                        <div className='sbo'>
+                            <Image fluid src={sbo}></Image>
+                        </div>
+                </div>
+                {/* <div className='main-box'>
                         <h5 className='text-center'>Hot Game များ</h5>
                         <div className='game-list'>
                             {
@@ -58,7 +69,7 @@ const Main = () => {
                                 })
                             }
                         </div>
-                </div> 
+                </div>  */}
 
                 <div className='footer_box'>
                     <div className='d-flex justify-content-center align-items-center'>
