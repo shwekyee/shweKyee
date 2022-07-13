@@ -11,7 +11,7 @@ const Side = () => {
         <div className='profile'>
             <Image fluid src={profile}></Image>
         </div>
-        <a href='https://a3678.live4000.com/Chat/Chat?userID=&lang=en' className='bg-light text-dark'><ChatDotsFill></ChatDotsFill> Customer Support</a>
+        {/* <a href='https://a3678.live4000.com/Chat/Chat?userID=&lang=en' className='bg-light text-dark'><ChatDotsFill></ChatDotsFill> Customer Support</a> */}
         <a href='https://t.me/minndinn' className='side-viber'><TelephoneFill></TelephoneFill> Telegram</a>
     </div>
   )
