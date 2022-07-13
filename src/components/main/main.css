@@ -111,7 +111,7 @@
     padding:20px;
     margin:0 auto;
     margin-bottom: 7.5rem;
-    background: url(../../Image/footballbg.jpg);
+    background:linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1)), url(../../Image/footballbg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center bottom;

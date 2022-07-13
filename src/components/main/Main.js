@@ -6,29 +6,29 @@ import headerPhoto from '../../Image/mainheader.jpg'
 import logo from '../../Image/shwekyeeapp.png'
 import download from '../../Image/downloadNow.png'
 
-import game1 from '../../Image/game-1.png'
-import game2 from '../../Image/game-2.png'
-import game3 from '../../Image/game-3.png'
-import game4 from '../../Image/game-4.png'
-import game5 from '../../Image/game-5.png'
-import game6 from '../../Image/game-6.png'
-import game7 from '../../Image/game-7.png'
-import game8 from '../../Image/game-8.png'
+// import game1 from '../../Image/game-1.png'
+// import game2 from '../../Image/game-2.png'
+// import game3 from '../../Image/game-3.png'
+// import game4 from '../../Image/game-4.png'
+// import game5 from '../../Image/game-5.png'
+// import game6 from '../../Image/game-6.png'
+// import game7 from '../../Image/game-7.png'
+// import game8 from '../../Image/game-8.png'
 
 import saba from '../../Image/sabaremovebg.png'
 import sbo from '../../Image/SBOremovebg.png'
 
 
-const game_items = [
-    {img:game1, title:'Rome'},
-    {img:game2, title:'Cei Shen Fishing'},
-    {img:game3, title:'Sweet Bonanza'},
-    {img:game4, title:'Master Joker'},
-    {img:game5, title:'The Dog House'},
-    {img:game6, title:'Billionaire'},
-    {img:game7, title:'Gate of Olympus'},
-    {img:game8, title:'Buffalo King'},
-]
+// const game_items = [
+//     {img:game1, title:'Rome'},
+//     {img:game2, title:'Cei Shen Fishing'},
+//     {img:game3, title:'Sweet Bonanza'},
+//     {img:game4, title:'Master Joker'},
+//     {img:game5, title:'The Dog House'},
+//     {img:game6, title:'Billionaire'},
+//     {img:game7, title:'Gate of Olympus'},
+//     {img:game8, title:'Buffalo King'},
+// ]
 
 const Main = () => {
   return (

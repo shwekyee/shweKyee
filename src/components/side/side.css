@@ -5,7 +5,7 @@
     transform: translateY(-50%);
 }
 
-.side_bar a{
+.side_bar a, .side-bar .profile{
     display: block;
     padding: 1rem;
     margin-bottom: 0.5rem;
@@ -15,7 +15,17 @@
     transition: all 0.5s;
 }
 
-.side_bar a:hover{
+.profile{
+    width: 100px;
+    margin:0 auto;
+    margin-bottom: 0.5rem;
+}
+
+.profile img{
+    border-radius: 50%;
+}
+
+.side_bar a:hover, .profile img:hover{
     transform: scale(0.99);
     box-shadow: 0px 0px 30px rgb(255,215,0);
 }
