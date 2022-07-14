@@ -42,7 +42,7 @@ const Main = () => {
                             <Image fluid src={logo}></Image>
                         </div>
                         <div className='img2'>
-                            <a href='https://images.xyun999.com/slot/images/SK/app/sk103.apk' className='btn-transition'><Image fluid src={download}></Image></a>
+                            <a href='https://shwekyee.app/' className='btn-transition'><Image fluid src={download}></Image></a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Main = () => {
                         ကော်မရှင်ရယူပါ</p>
                     </div>
                     <div className='d-flex justify-content-center align-items-center'>
-                        <a href='https://images.xyun999.com/slot/images/SK/app/sk103.apk' className='btn-transition'><Image fluid src={download}></Image></a>
+                        <a href='https://shwekyee.app/' className='btn-transition'><Image fluid src={download}></Image></a>
                     </div>
                 </div>
             </Col>
